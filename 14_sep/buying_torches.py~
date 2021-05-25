@@ -1,0 +1,22 @@
+import math
+t = int(input())
+
+while( t > 0):
+    x, y, k = [int(x) for x in input().split()]
+    sticks_needed = ((y+1)*k)-1
+    print((math.ceil(sticks_needed/(x-1)))+k)
+        
+    t -= 1
+
+
+
+
+
+
+        print("necesito ",sticks_needed)
+    print("con estos trueques ",sticks_needed/(x-1))
+    print("obtengo ",((math.ceil(sticks_needed/(x-1)))*(x-1))+1)
+    print("de esas ocupo ",k)
+    print("para las varas")
+    print("y ocupo",y*k)
+    print("para los carbones")

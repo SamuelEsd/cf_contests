@@ -1,0 +1,14 @@
+tests = int(input())
+
+while(test > 0):
+    enemies = int(input())
+    boses_dif = [int(x) for x in intpu().split()]
+
+    friend_turn = True
+    skips = 0
+
+    i = 0
+    while (i < enemies):
+        if(friend_turn):
+            if(boses_dif[i] == 1):
+                
